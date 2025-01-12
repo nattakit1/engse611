@@ -1,0 +1,153 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li {
+    font-size: 16px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.hero-text-container {
+    text-align: center;
+}
+
+.hero-main-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Info Section */
+.info {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box-text {
+    margin-top: 10px;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* CTA Section */
+.CTA {
+    background-color: #ffcc00;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.CTA-main-text {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.CTA-secondary-text {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.CTA-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.CTA-button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
