@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat; /* เปลี่ยนสีพื้นหลัง */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ทำให้แนวดิ่งอยู่ตรงกลาง */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: rgb(245, 172, 15); /* สีพื้นหลังของกล่อง */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* จัดวางครึ่งซ้ายและขวา */
+    margin-bottom: 20px;
+}
+
+.split {
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.middle { 
+    background-color: rgb(213, 232 ,212);
+    padding: 20px; 
+}
+
+.left {
+    background-color: rgb(213, 232 ,212); /* สีพื้นหลังของส่วน My Classes */
+    padding: 20px;
+}
+
+.right {
+    background-color: rgb(213, 232 ,212); /* สีพื้นหลังของส่วน My Favorite Movies */
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2e8b57; /* เปลี่ยนสีฟอนต์ */
+    font-weight: bold; /* เปลี่ยนความหนาฟอนต์ */
+}
+
+p {
+    line-height: 1.6;
+    font-family: Trebuchet MS, sans-serif; /* เปลี่ยนรูปแบบฟอนต์ */
+    font-size: 18px; /* เปลี่ยนขนาดฟอนต์ */
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li, ol li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img {
+    width: 150px; /* ปรับขนาดภาพเป็น 500px */
+    height: auto; /* รักษาอัตราส่วนภาพ */
+}
+
+.jolly {
+    color: #ffee00; /* เปลี่ยนสีของ 'jolly' */
+}
+
+.clumsy {
+    color: #1e90ff; /* เปลี่ยนสีของ 'clumsy' */
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between; /* จัดวางครึ่งซ้ายและขวา */
+    margin-bottom: 20px;
+}
+.left1 {
+    background-color: rgb(255, 242, 204); /* สีพื้นหลังของส่วน My Classes */
+    padding: 20px;
+}
+
+.right1 {
+    background-color: rgb(255, 242, 204); /* สีพื้นหลังของส่วน My Favorite Movies */
+    padding: 20px;
+}
+a {
+    color: red;
+}
