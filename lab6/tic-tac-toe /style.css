@@ -1,0 +1,51 @@
+:root {
+  --grid-size: 450px;
+  --margin-size: 10px;
+  --square-size: calc((var(--grid-size) / 3) - var(--margin-size));
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: var(--margin-size);
+  width: var(--grid-size);
+  height: var(--grid-size);
+  margin: 20px auto;
+}
+
+.square {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.square.x {
+  color: red;  /* สีของ X */
+}
+
+.square.o {
+  color: blue;  /* สีของ O */
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#score {
+  font-size: 18px;
+  margin-top: 20px;
+}
